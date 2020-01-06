@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="style.css">
+<section> 
+  <html>
 <style>
 body {margin:0;}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -14,19 +14,23 @@ ul {
   top: 0;
   width: 100%;
 }
-li {
+
+li.nav {
   float: left;
 }
+
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 5px 10px;
+  padding: 2px 10px;
   text-decoration: none;
 }
+
 li a:hover:not(.active) {
   background-color: #111;
 }
+
 .active {
   background-color: #4CAF50;
 }
@@ -35,12 +39,14 @@ li a:hover:not(.active) {
 <body>
 
 <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="navbar.html">News</a></li>
-  <li><a href="scratch.html">Contact</a></li>
-  <li><a href="#about">About</a></li>
+  <li class="nav"><a class="active" href="#home">Home</a></li>
+  <li class="nav"><a href="#news">News</a></li>
+  <li class="nav"><a href="#contact">Contact</a></li>
+  <li class="nav"><a href="#about">About</a></li>
 </ul>
-  </body>
+
+</section>
+<section>
 <body>
   <p> Mandela Tobin is the Best Person Ever 
    <div class="column" </p>
@@ -57,7 +63,7 @@ li a:hover:not(.active) {
   <header>
     <h1> Photos </h1>
   </header>
-
+  </section>
   <section class="columns">
     
   <div class="column"> 
